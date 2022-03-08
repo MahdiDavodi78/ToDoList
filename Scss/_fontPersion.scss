@@ -1,0 +1,14 @@
+
+$vazir_font: 'Vazir';
+
+@font-face {
+    font-family: $vazir_font;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../Font/vazir/vazir.eot");
+    src: url("../Font/vazir/vazir.eot#iefix") format("embedded-opentype"),
+    url("../Font/vazir/vazir.woff2") format("woff2"),
+    url("../Font/vazir/vazir.woff") format("woff"),
+    url("../Font/vazir/vazir.ttf.ttf") format("truetype"),
+    url("../Font/vazir/vazir.svg.svg") format("svg");
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html dir="rtl" lang="fa">
+    <head>
+       <meta charset="UTF-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>to do list</title>
+       <link rel="icon" href="Favicon/icons8-list-60.png" />
+       <link rel="stylesheet" href="Css/bootstrap-min.css" type="text/css"/>
+       <link rel="stylesheet" href="fontAwesome/css/all.min.css" type="text/css"/>
+       <link rel="stylesheet" href="Css/main-style.css" type="text/css" />
+    </head>
+
+    <body>
+
+
+
+         <div class="container">
+            <div id="boxes">
+               <div class="card" id="Main">
+                   <div class="card-body">
+                       <form method="post" id="myForm">
+                           <div class="m-1">
+                              <label class="lbl-CreatList">ایجاد لیست</label>
+                              <input type="text" id="Task" name="Task" class="form-control inpCreatElement">
+                           </div>
+                           <button type="submit" name="BtnBuild" class="btn btn-primary btn-create">ایجاد کن !</button>
+                       </form>
+                       <hr/>
+                       <div class="m-1">
+                          <label class="lbl-search">جست جو عبارت کلیدی</label> 
+                          <input type="text" id="Filter" name="Filter" class="form-control inpSearchElement">
+                       </div>
+                       <div class="m-4">
+                          <ul class="list-group collection" id="parentList"></ul>
+                          <button href="#" class="btn btn-warning btn-Clear">پاک کردن موارد !</button>
+                       </div>
+                   </div>
+               </div>
+            </div>
+         </div>
+    </body>
+    <script src="Js/main-script.js"></script>
+</html>

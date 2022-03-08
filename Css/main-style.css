@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Vazir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Font/vazir/vazir.eot");
+  src: url("../Font/vazir/vazir.eot#iefix") format("embedded-opentype"), url("../Font/vazir/vazir.woff2") format("woff2"), url("../Font/vazir/vazir.woff") format("woff"), url("../Font/vazir/vazir.ttf.ttf") format("truetype"), url("../Font/vazir/vazir.svg.svg") format("svg"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Vazir"; }
+
+#boxes {
+  margin: 0.5rem 0.5rem; }
+  #boxes .lbl-CreatList {
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    margin: 0.7rem; }
+  #boxes .inpCreatElement {
+    padding: 0.7rem;
+    font-size: 1.2rem; }
+  #boxes .btn-create {
+    margin: 0.7rem; }
+  #boxes .inpSearchElement {
+    padding: 0.5rem; }
+  #boxes .lbl-search {
+    padding: 0.4rem;
+    margin: 0.7rem;
+    font-weight: 500; }
+  #boxes .btn-Clear {
+    margin-top: 0.4rem; }

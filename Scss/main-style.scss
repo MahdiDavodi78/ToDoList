@@ -1,0 +1,45 @@
+@import "_fontPersion";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $vazir_font;
+}
+
+#boxes {
+    margin: 0.5rem 0.5rem;
+
+    .lbl-CreatList {
+        font-size: 1.4rem;
+        padding: 0.4rem;
+        margin: 0.7rem;
+    }
+
+    .inpCreatElement {
+        padding: 0.7rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-create {
+        margin: 0.7rem; 
+    }
+
+    .inpSearchElement {
+        padding: 0.5rem;
+    }
+
+    .lbl-search {
+        padding: 0.4rem;
+        margin: 0.7rem;
+        font-weight: 500;
+    }
+
+    .btn-Clear{
+       margin-top: 0.4rem;
+    }
+}
